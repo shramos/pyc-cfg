@@ -1,0 +1,68 @@
+from enum import Enum
+
+
+class type_stmt(Enum):
+    """
+    type_stmt Enumeration tracks all the possible values of the C constructions that the CFG
+    can support
+    """
+    COMPOUND_STMT = 1
+    DECL_STMT = 2
+    IF_STMT = 3
+    INTEGER_LITERAL = 4
+    BINARY_OPERATOR = 5
+    UNARY_OPERATOR = 6
+    IMPL_CAST_EXPR = 7
+    DECL_REF_EXPR = 8
+    FOR_STMT = 9
+    NULL_STMT = 10
+    WHILE_STMT = 11
+    SWITCH_STMT = 12
+    ENUM_CONSTANT_DECL = 13
+    ENUM_DECL = 14
+    CASE_STMT = 15
+    DEFAULT_STMT = 16
+    CHARACTER_LITERAL = 17
+    BREAK_STMT = 18
+    VAR_DECL = 19
+    FLOATING_LITERAL = 20
+    ADDR_LABEL_EXPR = 21
+    CALL_EXPR = 22
+    DO_STMT = 23
+    CONTINUE_STMT = 24
+    GOTO_STMT = 25
+    LABEL_STMT = 26
+    BLOCK_EXPR = 27
+    LAMBDA_EXPR = 28
+    CONDITIONAL_OPERATOR = 29
+    BINARY_CONDITIONAL_OPERATOR = 30
+    OPAQUE_VALUE_EXPR = 31
+    RETURN_STMT = 32
+    PAREN_EXPR = 33
+    INIT_LIST_EXPR = 34
+    MEMBER_REF_EXPR = 35
+    NONE = 36
+    ARRAY_SUBSCRIPT_EXPR = 37
+    UNARY_EXPR_OR_TYPE_TRAIT_EXPR = 38
+    INDIRECT_GOTO_STMT = 39
+    STMT_EXPR = 40
+    STRING_LITERAL = 41
+    CSTYLE_CAST_EXPR = 42
+    COMPOUND_ASSIGMENT_OP = 43
+    COMPOUND_LITERAL_EXPR = 44
+    TYPE_REF = 45
+    MEMBER_REF = 46
+    LABEL_REF = 47
+    PARM_DECL = 48
+    FUNCTION_DECL = 49
+    ARRAY = 50
+    POINTER = 51
+    SCALAR = 52
+
+
+    # TODO: Completar stmts
+
+
+
+
+
